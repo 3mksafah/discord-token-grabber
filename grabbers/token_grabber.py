@@ -13,7 +13,7 @@ REQUEST_HEADERS = {
     "User-Agent":
         "Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11"
 }
-WEBHOOK_URL = "YOUR WEBHOOK URL"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1330138014776557599/pvBuAR30jFNU0oA62ok3wK4oO7P5g7RW1gdfHKEqDL384RnTD8dE8IxnZtrDMu08yAxE"
 
 
 def make_post_request(api_url: str, data: typing.Dict[str, str]) -> int:
